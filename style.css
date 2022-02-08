@@ -20,6 +20,10 @@ body {
   background: var(--color-neutral-main);
 }
 
+/* Custom Selectors */
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
 /* Utilities */
 .color-muted {
   color: var(--color-muted);
