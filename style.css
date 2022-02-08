@@ -1,0 +1,14 @@
+/* Base styles */
+:root {
+  /* Colors - Primary*/
+  --color-primary: hsl(215, 51%, 70%);
+  --color-primary-alt: hsl(178, 100%, 50%);
+  /* Colors - Neutral*/
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-line: hsl(215, 32%, 27%);
+  --color-neutral-card:  hsl(216, 50%, 16%);
+  --color-neutral-main: hsl(216, 50%, 16%);
+  /* Typography */
+  --font-family: "Outfit", sans-serif;
+  --font-size: 18px;
+}
