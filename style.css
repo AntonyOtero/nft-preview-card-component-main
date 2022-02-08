@@ -54,6 +54,7 @@ a:hover {
 
 .image-container {
   position: relative;
+  cursor: pointer;
 }
 
 .header_image {
