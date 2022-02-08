@@ -62,12 +62,12 @@ a:hover {
   border-radius: 8px;
 }
 
-.mask,
+.overlay,
 .icon-view {
   display: none;
 }
 
-.image-container:hover .mask {
+.image-container:hover .overlay {
   display: grid;
   place-items: center;
   position: absolute;
@@ -75,8 +75,8 @@ a:hover {
   left: 0;
   width: 302px;
   height: 302px;
-  background: var(--color-primary);
   opacity: 0.5;
+  background: var(--color-primary);
   border-radius: 8px; 
 }
 
