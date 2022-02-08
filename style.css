@@ -64,29 +64,32 @@ a:hover {
 
 .overlay,
 .icon-view {
-  display: none;
+  position: absolute; /* The parent is set to position relative */
+  opacity: 0;
 }
 
-.image-container:hover .overlay {
-  display: grid;
-  place-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
+.overlay {
   width: 302px;
   height: 302px;
-  opacity: 0.5;
+  top: 0;
+  left: 0;
   background: var(--color-primary);
   border-radius: 8px; 
 }
 
-.image-container:hover .icon-view {
-  display: block;
-  position: absolute;
+.icon-view {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--color-white);
+}
+
+.image-container:hover .overlay {
+  opacity: 0.5;
+}
+
+.image-container:hover .icon-view {
+  opacity: 0.75;
 }
 
 .header_title {
