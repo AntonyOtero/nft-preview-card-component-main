@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://antonyotero.github.io/nft-preview-card-component-main/](https://antonyotero.github.io/nft-preview-card-component-main/)
-- Live Site URL: [https://github.com/AntonyOtero/nft-preview-card-component-main](https://github.com/AntonyOtero/nft-preview-card-component-main)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-componenet](https://www.frontendmentor.io/solutions/nft-preview-card-componenet-with-custom-properties-flexbox-and-grid-N9TkS4bQI)
+- Live Site URL: [https://AntonyOtero.github.io/nft-preview-card-component-main](https://AntonyOtero.github.io/nft-preview-card-component-main)
 
 ## My process
 
